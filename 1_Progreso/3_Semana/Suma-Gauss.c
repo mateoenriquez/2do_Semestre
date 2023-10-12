@@ -13,7 +13,12 @@ int main (void){
 
     }else{
         printf("La suma de gauss de %d es:\n", entero);
-        
+        for (i = 1; i <= entero; i++)
+        {
+            suma+=i;
+        }
+
+        printf("La suma de Gauss para el nu5mero %d es: %d\n", entero, suma);
         
     } 
 
