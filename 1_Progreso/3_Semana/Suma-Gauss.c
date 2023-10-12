@@ -2,7 +2,7 @@
 
 int main (void){
     
-    int entero, i, entero2;
+    int entero, i, suma=0;
 
     printf("Ingrese un numero entero positivo\n");
     scanf("%d", &entero);
