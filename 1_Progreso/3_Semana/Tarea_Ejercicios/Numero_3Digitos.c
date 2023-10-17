@@ -15,6 +15,12 @@ int main(void){
         printf("El valor ingresado no contiene los 3 digitos solicitados\n");
         return 0;
     }
+
+    //Se descompone el valor para examinar cada digito del mismo
+
+    int num1 = numero/100;
+    int num2 = (numero/10)%10;
+    int num3 = numero%10;
      
 
     return 0;
