@@ -11,6 +11,9 @@ int main(void){
     
     int suma=0, contador=0;
 
+//Con el for se evalua cada numero multiplo de 3 hasta llegar al entero ingresado con ayuda del contador
+//Los multiplos de 3 se suman en una variable llamada "suma"
+
     for (int i = 1; contador < num; i++)
     {
         if (i % 3 == 0)
@@ -20,6 +23,8 @@ int main(void){
         }
         
     }
+
+//if y promedio para determinar el promedio
 
     if (contador > 0)
     {
