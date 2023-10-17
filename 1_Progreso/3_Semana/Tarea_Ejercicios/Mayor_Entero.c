@@ -12,6 +12,11 @@ int main() {
         numero = -numero;
     }
 
+    int mayor = -1;  // Inicializar con un valor negativo para asegurarse de que se encuentre un dígito en el número
+    int digito;
+
+       
+
 
 
     return 0;
