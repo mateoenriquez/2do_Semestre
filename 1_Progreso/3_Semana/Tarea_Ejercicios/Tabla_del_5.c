@@ -4,7 +4,8 @@ int main(void){
     
     int cinco=5;
 
-    for (int i = 1; i < 12; i++)
+printf("---TABLA DE MULTIPLICAR DEL 5---\n");
+    for (int i = 1; i <= 12; i++)
     {
         printf("%d x %d = %d\n", cinco, i, cinco*i);
 
