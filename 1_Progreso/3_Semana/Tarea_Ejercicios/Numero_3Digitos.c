@@ -21,7 +21,28 @@ int main(void){
     int num1 = numero/100;
     int num2 = (numero/10)%10;
     int num3 = numero%10;
-     
 
+    printf("Numeros enteros entre 1 y %d :", num1);
+    for (int i = 1; i <= num1; i++)
+    {
+        printf("%d ", i);
+    }
+    printf("\n");
+
+    printf("Numeros enteros entre 1 y %d :", num2);
+    for (int i = 1; i <= num2; i++)
+    {
+         printf("%d ", i);
+    }
+    printf("\n");
+
+    printf("Numeros enteros entre 1 y %d :", num3);
+    for (int i = 1; i <= num3; i++)
+    {
+         printf("%d ", i);
+    }
+    printf("\n");
+    
+    
     return 0;
 }
