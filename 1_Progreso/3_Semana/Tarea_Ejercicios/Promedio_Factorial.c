@@ -18,7 +18,11 @@ int main(void){
         contador++;
     }
 
-   
+    // Calcular el promedio entero de los factoriales
+    int promedio = sumaFactoriales / contador;
+
+    printf("El promedio entero de los factoriales de los números del 1 al %d es: %d\n", numero, promedio);
+
 
    
 
