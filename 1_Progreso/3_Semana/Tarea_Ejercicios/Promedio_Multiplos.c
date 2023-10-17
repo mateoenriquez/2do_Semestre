@@ -21,7 +21,14 @@ int main(void){
         
     }
 
+    if (contador > 0)
+    {
+        int promedio=suma/contador;
+        printf("El promedio de los primeros %d numeros enteros multiplos de 3 son %d\n", num, promedio);
+    }else{
+        printf("No se encontraron multiplos de 3 para encontrar el promedio\n");
 
+    }
     
     return 0;
 }
