@@ -22,21 +22,23 @@ int main(void){
     int num2 = (numero/10)%10;
     int num3 = numero%10;
 
-    printf("Numeros enteros entre 1 y %d :", num1);
+    //Se declara un for por cada uno de los digitos del numero entero
+
+    printf("Numeros enteros entre 1 y %d : ", num1);
     for (int i = 1; i <= num1; i++)
     {
         printf("%d ", i);
     }
     printf("\n");
 
-    printf("Numeros enteros entre 1 y %d :", num2);
+    printf("Numeros enteros entre 1 y %d : ", num2);
     for (int i = 1; i <= num2; i++)
     {
          printf("%d ", i);
     }
     printf("\n");
 
-    printf("Numeros enteros entre 1 y %d :", num3);
+    printf("Numeros enteros entre 1 y %d : ", num3);
     for (int i = 1; i <= num3; i++)
     {
          printf("%d ", i);
