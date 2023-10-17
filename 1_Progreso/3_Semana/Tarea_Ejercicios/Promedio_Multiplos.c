@@ -11,6 +11,17 @@ int main(void){
     
     int suma=0, contador=0;
 
+    for (int i = 1; contador < num; i++)
+    {
+        if (i % 3 == 0)
+        {
+            suma+=i;
+            contador++;
+        }
+        
+    }
+
+
     
     return 0;
 }
